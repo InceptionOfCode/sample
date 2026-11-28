@@ -1,0 +1,47 @@
+{
+	"folders": [
+		{ "path": "build" },
+		{ "path": "project-01" },
+		{ "path": "project-02" },
+		{ "path": "project-03" },
+		{ "path": "project-04" },
+		{ "path": "project-05" },
+		{ "path": "project-06" },
+		{ "path": "project-07" },
+		{ "path": "project-08" },
+		{ "path": "project-09" },
+		{ "path": "project-10" },
+		{ "path": "project-11" },
+		{ "path": "project-12" },
+		{ "path": "project-13" },
+		{ "path": "project-14" },
+		{ "path": "project-15" },
+		{ "path": "project-16" },
+		{ "path": "project-17" },
+		{ "path": "project-18" },
+		{ "path": "project-19" },
+		{ "path": "project-20" },
+		{ "path": "project-21" },
+		{ "path": "project-22" },
+		{ "path": "project-23" },
+		{ "path": "project-24" },
+		{ "path": "project-25" }
+	],
+	"launch": {
+		"configurations": []
+	},
+	"settings": {
+		"java.configuration.runtimes": [
+		],
+		"java.compile.nullAnalysis.mode": "automatic",
+		"java.configuration.updateBuildConfiguration": "automatic",
+		"java.jdt.ls.vmargs": "-Dsun.zip.disableMemoryMapping=true -Xmx4G -Xms1G",
+		"spring-boot.ls.java.heap": "4G"
+	},
+	"extensions": {
+		"recommendations": [
+			"vmware.vscode-boot-dev-pack",
+			"vscjava.vscode-java-pack"
+		]
+	}
+}

@@ -1,16 +1,13 @@
 # sample
 
-This repository now contains 25 Spring Boot subprojects:
+This repository contains 25 Maven modules:
 
-- `project-01` through `project-25`
+- `project-01` through `project-12`: shared libraries
+- `project-13` through `project-25`: Spring Boot applications
 
-Each subproject includes:
+Applications depend on libraries (roughly 50/50 app/library split across modules).
 
-- a Spring Boot application entry point,
-- a small service + REST controller,
-- and a focused MockMvc test for its greeting endpoint.
-
-Run all subprojects' tests from the repository root:
+Build all modules from the repository root:
 
 ```bash
 mvn test

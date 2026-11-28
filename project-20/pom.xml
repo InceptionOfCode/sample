@@ -11,12 +11,17 @@
 
     <artifactId>project-20</artifactId>
     <name>project-20</name>
-    <description>Spring Boot subproject 20</description>
+    <description>Spring Boot application subproject 20</description>
 
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.inceptionofcode</groupId>
+            <artifactId>project-08</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
         </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>

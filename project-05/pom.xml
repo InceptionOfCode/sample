@@ -11,7 +11,7 @@
 
     <artifactId>project-05</artifactId>
     <name>project-05</name>
-    <description>Spring Boot subproject 05</description>
+    <description>Shared library subproject 05</description>
 
     <dependencies>
         <dependency>
@@ -25,12 +25,5 @@
         </dependency>
     </dependencies>
 
-    <build>
-        <plugins>
-            <plugin>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-maven-plugin</artifactId>
-            </plugin>
-        </plugins>
-    </build>
+
 </project>
